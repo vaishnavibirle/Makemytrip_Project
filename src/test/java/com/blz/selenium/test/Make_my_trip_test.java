@@ -9,11 +9,11 @@ import org.testng.annotations.Test;
 
 public class Make_my_trip_test extends BaseClass {
 
-    @Test
-    public void signup_test() throws InterruptedException {
-        Sign_UP sign_up = new Sign_UP(driver);
-        sign_up.sign_up_with_otp();
-    }
+//    @Test
+//    public void signup_test() throws InterruptedException {
+//        Sign_UP sign_up = new Sign_UP(driver);
+//        sign_up.sign_up_with_otp();
+//    }
 
     @Test
     public void login_test() throws InterruptedException {
