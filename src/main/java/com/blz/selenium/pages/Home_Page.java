@@ -38,13 +38,13 @@ public class Home_Page extends BaseClass {
     @FindBy(xpath = "//label[contains(@for,'departure')]")
     WebElement Departure;
 
-    @FindBy(xpath = "//div[@aria-label='Tue Aug 03 2021']//div[@class='dateInnerCell']")
+    @FindBy(xpath = "//div[@aria-label='Fri Aug 06 2021']//div[@class='dateInnerCell']")
     WebElement select_departure_date;
 
     @FindBy(xpath = "//span[normalize-space()='RETURN']")
     WebElement Return;
 
-    @FindBy(xpath = "//div[contains(@aria-label,'Tue Aug 10 2021')]//div[contains(@class,'dateInnerCell')]")
+    @FindBy(xpath = "//div[contains(@aria-label,'Fri Aug 13 2021')]//div[contains(@class,'dateInnerCell')]")
     WebElement select_return_date;
 
     @FindBy(xpath = "//a[normalize-space()='Search']")
